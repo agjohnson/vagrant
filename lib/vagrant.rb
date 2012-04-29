@@ -190,6 +190,7 @@ Vagrant.provisioners.register(:chef_client)   { Vagrant::Provisioners::ChefClien
 Vagrant.provisioners.register(:puppet)        { Vagrant::Provisioners::Puppet }
 Vagrant.provisioners.register(:puppet_server) { Vagrant::Provisioners::PuppetServer }
 Vagrant.provisioners.register(:shell)         { Vagrant::Provisioners::Shell }
+Vagrant.provisioners.register(:csistck)       { Vagrant::Provisioners::Csistck }
 
 # Register the built-in systems
 Vagrant.config_keys.register(:freebsd) { Vagrant::Guest::FreeBSD::FreeBSDConfig }

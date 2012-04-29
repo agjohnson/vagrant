@@ -8,5 +8,6 @@ module Vagrant
     autoload :Puppet,       'vagrant/provisioners/puppet'
     autoload :PuppetServer, 'vagrant/provisioners/puppet_server'
     autoload :Shell,        'vagrant/provisioners/shell'
+    autoload :Csistck,      'vagrant/provisioners/csistck'
   end
 end
